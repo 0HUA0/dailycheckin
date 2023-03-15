@@ -6,7 +6,7 @@ mkdir -p config
 
 echo "下载渲染 config 文件的脚本，并执行渲染"
 
-curl https://gitee.com/sitoi/dailycheckin/raw/main/docker/config.template.json -o config/config.json
+curl https://github.com/0HUA0/dailycheckin/blob/main/docker/config.template.json -o config/config.json
 
 docker --version
 if [ $? -ne 0 ];then
