@@ -25,9 +25,9 @@ else
   else
     echo "docker-compose 环境存在，将使用 docker-compose 命令启动容器..."
     echo "下载 docker-compose.yml 文件"
-    curl -O https://gitee.com/sitoi/dailycheckin/raw/main/docker/docker-compose.yml
+    curl -O https://github.com/0HUA0/dailycheckin/blob/main/docker/docker-compose.yml
     echo "下载 Makefile 文件（可以无视）"
-    curl -O https://gitee.com/sitoi/dailycheckin/raw/main/docker/Makefile
+    curl -O https://github.com/0HUA0/dailycheckin/blob/main/docker/Makefile
     echo "开始通过 docker-compose 命令创建容器"
     docker-compose up -d
   fi
